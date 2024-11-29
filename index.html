@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid h-100 bg-dark pt-1">
+        <h1 class="text-center text-info my-3"> Welcome To our ToDo App</h1>
+        <div class="row justify-content-center">
+            <div class="col-log-6 col-md-6 col-sm-10 py-4">
+                <div class="card bg-secondary text-white fw-bold">
+                    <div class="card-body">
+                        <div class="from-group">
+                            <label for="inputTask" class="form-label"> Enter You Task </label>
+                            <input id="inputTask" type="text" class="form-control" placeholder="Enter You Task">
+                        </div>
+                        <div class="text-center">
+                            <div id="AddButton" class="btn btn-success mt-4 w-50">
+                                Add New Task 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="text-center text-info mt-5">You Have <span id="count">0</span> Tasks </h5>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-10 py-4">
+                <div class="card bg-secondary text-white fw-bold ">
+                    <div class="card-body">
+                        <div class="from-group">
+                            <div id="noTasks" class="alert alert-danger" role="alert">
+                                No Tasks Added Yet!!
+                            </div>
+
+                            <div id="allTasks">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- popper -->
+<script src="./js/popper.min.js"></script>
+<!-- bootstrap  -->
+<script src="./js/bootstrap.min.js"></script>
+<!-- My js -->
+<script src="./js/app.js"></script>
+</body>
+</html>
